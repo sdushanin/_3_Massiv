@@ -37,7 +37,7 @@ public class Massiv{    public static void main(String[] args) {
 
     System.out.println("массив измененный:");
 //Меняем местами найденные элементы массива и выводим полученный массив
-    for (int l=0; l<21; l++) {
+    for (int l=0; l<20; l++) {
         New.setI(l);
         int index= New.getIndex();
         if (index == c) {
