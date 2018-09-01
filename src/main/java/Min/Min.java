@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Min {
     //определяем кол-во элементов в массиве, диапазон от -10 до 10
-    private int[] _3_ = new int[21];
+    private int[] _3_ = new int[20];
     private int i;
 
 
@@ -12,7 +12,7 @@ public class Min {
 
         //Заполняем массив случайных чисел в диапазоне -10 до 10 и выводим на экран
         Random random = new Random();
-        for (i = 0; i < 21; i++) {
+        for (i = 0; i < 20; i++) {
             _3_[i] = random.nextInt(21) - 10;
             System.out.println(i + " индекс = "+_3_[i]);
         }

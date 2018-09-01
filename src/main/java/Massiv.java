@@ -14,15 +14,15 @@ public class Massiv{    public static void main(String[] args) {
     New.mSluch();
 //вводим дополнительные переменные
     int a=0;
-    int b=0;
-    int c=16;
+    int b=-10;
+    int c=11;
 
-    for (int j=0; j<21; j++)
+    for (int j=0; j<20; j++)
     {
         New.setI(j);
          int index= New.getIndex();
         //максимально отрицательный элемент массива
-        if (index<a && index<b)
+        if (index<a && index>b)
         {
             b=index;
         }
